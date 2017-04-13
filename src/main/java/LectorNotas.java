@@ -37,17 +37,17 @@ public class LectorNotas extends MainWindow<AlumnoViewModel> {
 		
 		new Label(columns).setText("Nombre");
 		TextBox Nombre = new TextBox(columns);
-		Nombre.bindValueToProperty("alumno.code");
+		Nombre.bindValueToProperty("alumno.first_name");
 		Nombre.setWidth(114);
 		
 		new Label(columns).setText("Apellido");
 		TextBox Apellido = new TextBox(columns);
-		Apellido.bindValueToProperty("alumno.code");
+		Apellido.bindValueToProperty("alumno.last_name");
 		Apellido.setWidth(114);
 		
 		new Label(columns).setText("Usuario de GitHub");
 		TextBox UsuarioDeGitHub = new TextBox(columns);
-		UsuarioDeGitHub.bindValueToProperty("alumno.code");
+		UsuarioDeGitHub.bindValueToProperty("alumno.github_user");
 		UsuarioDeGitHub.setWidth(114);
 		
 		
